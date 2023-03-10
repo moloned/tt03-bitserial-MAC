@@ -18,11 +18,10 @@ yaml_version: 3.0
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       ""      # Your name
-  title:        ""      # Project title
-  language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
-
+  author:       "David Moloney"      # David Moloney
+  title:        "Bit-serial MAC"      # Bit-serial MAC
+  language:     "Verilog" # Verilog
+  description:  "8x8 bit Bit-serial MAC"      # 8x8 bit Bit-serial MAC
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
       Explain how your project works
@@ -35,22 +34,13 @@ documentation:
   inputs:               
     - clock
     - reset
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - input_A
+    - input_B
+    - start
 # A description of what the outputs do
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
+    - Output
+    - done
 
 # The following fields are optional
   tag:          ""      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
