@@ -6,9 +6,8 @@ project:
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
 #  source_files:        
-#    - counter.v
-#    - decoder.v
-#  top_module:  "seven_segment_seconds"      # put the name of your top module here, make it unique by prepending your github username
+#    - bitserial_8x8_MAC
+#  top_module:  "bitserial_8x8_MAC"      # put the name of your top module here, make it unique by prepending your github username
 
 # Keep a track of the submission yaml
 yaml_version: 3.0
@@ -18,10 +17,10 @@ yaml_version: 3.0
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "David Moloney"      # David Moloney
-  title:        "Bit-serial MAC"      # Bit-serial MAC
-  language:     "Verilog" # Verilog
-  description:  "8x8 bit Bit-serial MAC"      # 8x8 bit Bit-serial MAC
+  author:       "David Moloney"
+  title:        "Bit-serial MAC"
+  language:     "Verilog"
+  description:  "8x8 bit Bit-serial MAC"
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
       Explain how your project works
